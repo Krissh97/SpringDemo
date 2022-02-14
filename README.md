@@ -3,9 +3,9 @@ Basic crud spring application
 ######
 When running on local host use
 ######
-http://localhost:8181/myapp/crud/hello
+http://localhost:8181/myapp/crud/hello for GET without any arguments
 ######
-http://localhost:8181/myapp/crud/hello/{string}/{string}
+http://localhost:8181/myapp/crud/hello/{string}/{string} for GET with 2 arguments
 ######
-Use postman to see if post method is working
+Used postman to see if post method is working
 ######
