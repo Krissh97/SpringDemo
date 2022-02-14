@@ -19,7 +19,8 @@ jobs:
     - name: Deploy to Heroku
   
       uses: AkhileshNS/heroku-deploy@v3.12.12
-      heroku_api_key: ec53d303-692c-4ff9-868e-84297bd05535
-      heroku_email: uppalachaitanya97@gmail.com
-      heroku_app_name: for-github
+      with:
+        heroku_api_key: ec53d303-692c-4ff9-868e-84297bd05535
+        heroku_email: uppalachaitanya97@gmail.com
+        heroku_app_name: for-github
     
